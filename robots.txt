@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block non-essential system files
+Disallow: /scripts.js
+Disallow: /style.css
+Disallow: /CNAME
+Disallow: /.nojekyll
+
+# Sitemap location
+Sitemap: https://www.scamalertsg.site/sitemap.xml
